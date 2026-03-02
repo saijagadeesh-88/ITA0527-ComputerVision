@@ -1,5 +1,5 @@
 import cv2
-cap = cv2.VideoCapture('gym.mp4')
+cap = cv2.VideoCapture('sai.mp4')
 while True:
     ret, frame = cap.read()
     if not ret:
@@ -10,4 +10,5 @@ while True:
     if cv2.waitKey(25) & 0xFF == ord('q'):
         break
 cap.release()
+
 cv2.destroyAllWindows()

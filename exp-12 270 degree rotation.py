@@ -6,4 +6,5 @@ cv2.imshow("Original Image", image)
 cv2.imshow("Rotated 270-degree Clockwise Along Y-axis", rotated_image) 
 cv2.imwrite("rotated_image_270.jpg", rotated_image) 
 cv2.waitKey(0) 
+
 cv2.destroyAllWindows()
